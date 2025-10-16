@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZincArt — Revestimentos em Zinco e Cobre | Telhados e Fachadas | Portugal</title>
+  <meta name="description" content="ZincArt especializada em revestimentos de zinco e cobre para telhados e fachadas. Fabricação, fornecimento e instalação em todo Portugal. Materiais premium, garantia 10 anos, equipa certificada.">
+  <meta name="keywords" content="revestimentos zinco, revestimentos cobre, telhados zinco, fachadas zinco, telhados cobre, fachadas cobre, VMZINC, elZinc, RHEINZINK, Portugal, Lisboa, Porto">
+  <meta name="author" content="ZincArt Portugal">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="pt">
+  <meta name="geo.region" content="PT">
+  <meta name="geo.country" content="Portugal">
+  <link rel="canonical" href="https://zincart.pt">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <!-- CSS libs -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- App CSS -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="ZincArt — Revestimentos em Zinco e Cobre | Telhados e Fachadas">
+  <meta property="og:description" content="Especialistas em revestimentos de zinco e cobre para telhados e fachadas. Materiais premium, garantia 10 anos, equipa certificada. Todo o Portugal.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zincart.pt">
+  <meta property="og:image" content="https://zincart.pt/assets/images/header.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="ZincArt Portugal">
+  <meta property="og:locale" content="pt_PT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ZincArt — Revestimentos em Zinco e Cobre">
+  <meta name="twitter:description" content="Especialistas em revestimentos de zinco e cobre para telhados e fachadas. Materiais premium, garantia 10 anos.">
+  <meta name="twitter:image" content="https://zincart.pt/assets/images/header.jpg">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ZincArt",
+    "description": "Especialistas em revestimentos de zinco e cobre para telhados e fachadas",
+    "url": "https://zincart.pt",
+    "logo": "https://zincart.pt/assets/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+351-935-610-516",
+      "contactType": "customer service",
+      "email": "zincart.pt@gmail.com"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PT",
+      "addressRegion": "Portugal"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Portugal"
+    },
+    "serviceType": "Revestimentos de zinco e cobre para telhados e fachadas",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços ZincArt",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Telhados em zinco e cobre"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Fachadas em zinco e cobre"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Sistemas de drenagem"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Modern Loader -->
+  <div id="loader" class="modern-loader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <div class="hexagon-loader">
+          <i class="bi bi-hexagon"></i>
+        </div>
+        <span class="loader-text">ZincArt</span>
+      </div>
+      <div class="loader-progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+      <div class="loader-subtitle">A carregar...</div>
+    </div>
+  </div>
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light modern-nav" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand fw-semibold d-flex align-items-center" href="#home" aria-label="ZincArt">
+          <div class="navbar-logo" role="img" aria-label="Logótipo ZincArt"></div>
+        </a>
+        <div class="d-flex align-items-center gap-2 order-lg-2">
+          <!-- Language Switcher -->
+          <div class="language-switcher me-3">
+            <div class="btn-group" role="group" aria-label="Seletor de idioma">
+              <button class="btn btn-lang active" type="button" data-lang="pt">PT</button>
+              <button class="btn btn-lang" type="button" data-lang="en">EN</button>
+            </div>
+          </div>
+          <button id="whatsappBtn" class="btn btn-whatsapp d-none d-lg-inline-flex" aria-label="WhatsApp Conversa"><i class="bi bi-whatsapp"></i> Conversa</button>
+          <a class="btn btn-primary d-none d-lg-inline-flex" href="#contact">Pedir Orçamento</a>
+          <button class="navbar-toggler modern-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-label="Abrir Menu">
+            <span class="toggler-line"></span>
+            <span class="toggler-line"></span>
+            <span class="toggler-line"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse d-none d-lg-flex">
+          <ul class="navbar-nav ms-auto modern-nav-links" role="menubar">
+            <li class="nav-item"><a class="nav-link modern-link" href="#services">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link modern-link" href="#materials">Materiais</a></li>
+            <li class="nav-item"><a class="nav-link modern-link" href="#gallery">Portfólio</a></li>
+            <li class="nav-item"><a class="nav-link modern-link" href="#process">Processo</a></li>
+            <li class="nav-item"><a class="nav-link modern-link" href="#faq">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link modern-link" href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Offcanvas mobile menu -->
+    <div class="offcanvas offcanvas-end glass" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#services">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#materials">Materiais</a></li>
+          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#gallery">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#process">Processo</a></li>
+          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#contact">Contacto</a></li>
+        </ul>
+        <div class="mt-4 d-grid gap-2">
+          <a class="btn btn-primary" href="#contact">Pedir Orçamento</a>
+          <button id="whatsappBtnMobile" class="btn btn-whatsapp" aria-label="WhatsApp Conversa"><i class="bi bi-whatsapp"></i> WhatsApp Conversa</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO (fullpage) -->
+  <section id="home" class="hero section-hero" aria-label="Ecrã inicial">
+    <div class="hero-background">
+      <img src="assets/images/header.jpg" alt="Imagem de fundo de telhado metálico" loading="eager">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container h-100 d-flex align-items-center">
+      <div class="row w-100 align-items-center">
+        <div class="col-lg-7 hero-content">
+          <p class="eyebrow text-uppercase mb-2">Telhados • Fachadas • Chapa Metálica</p>
+          <h1 class="display-3 fw-bold sheen">
+            Revestimentos em <span class="split hero-title-zinc">Zinco</span><br> e <span class="split hero-title-copper">Cobre</span>
+          </h1>
+          <p class="lead mt-3">Fabricação, fornecimento e instalação de revestimentos para telhados e fachadas. Trabalhamos em todo o Portugal. Materiais premium. Garantia de 10 anos.</p>
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a href="#contact" class="btn btn-primary btn-lg"><i class="bi bi-envelope-paper"></i> Pedir Orçamento</a>
+            <a href="#gallery" class="btn btn-outline-light btn-lg"><i class="bi bi-images"></i> Ver Portfólio</a>
+          </div>
+          <div class="trust mt-4 text-white-50 small">
+            <i class="bi bi-award"></i> 10+ anos de experiência • <i class="bi bi-patch-check"></i> Materiais certificados • <i class="bi bi-shield-lock"></i> Contrato e garantia • <i class="bi bi-globe2"></i> Todo o Portugal
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+          <div class="guarantee-box text-center">
+            <div class="label">Garantia</div>
+            <div class="value">10 anos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Section -->
+  <section class="stats-section section reveal" aria-label="Estatísticas">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="display-5 fw-bold mb-4">Números que falam por si</h2>
+          <p class="lead">Há mais de dez anos criamos soluções de cobertura fiáveis que resistem ao teste do tempo</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-lg-4">
+          <div class="stat-item">
+            <span class="counter" data-target="8">0</span>
+            <div class="counter-label">anos de experiência</div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-4">
+          <div class="stat-item">
+            <span class="counter" data-target="250">0</span>
+            <div class="counter-label">projetos concluídos</div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-4">
+          <div class="stat-item">
+            <span class="counter" data-target="10">0</span>
+            <div class="counter-label">anos de garantia</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section reveal" aria-labelledby="services-title">
+    <div class="container">
+      <h2 id="services-title" class="h1">Serviços</h2>
+      <hr class="rule mb-4">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4"><div class="card h-100 service-card"><div class="card-body"><h5 class="card-title"><i class="bi bi-house-gear me-2"></i> Telhados (junta agrafada / click)</h5><p class="card-text">Titânio-zinco: isolamento, ventilação, detalhes de junção, retenção de neve.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="card h-100 service-card"><div class="card-body"><h5 class="card-title"><i class="bi bi-building me-2"></i> Fachadas e sótãos</h5><p class="card-text">Fachadas ventiladas: cassetes, painéis e soluções arquitetónicas em zinco e cobre.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="card h-100 service-card"><div class="card-body"><h5 class="card-title"><i class="bi bi-droplet me-2"></i> Sistemas de drenagem</h5><p class="card-text">Caleiras, tubos, funis e acessórios — fabrico e instalação.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="card h-100 service-card"><div class="card-body"><h5 class="card-title"><i class="bi bi-stars me-2"></i> Elementos decorativos</h5><p class="card-text">Parapeitos, chaminés, cúpulas, claraboias, molduras e cornijas.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="card h-100 service-card"><div class="card-body"><h5 class="card-title"><i class="bi bi-tools me-2"></i> Reparação e manutenção</h5><p class="card-text">Reparações locais, substituição de elementos, inspeções e manutenção.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="card h-100 service-card"><div class="card-body"><h5 class="card-title"><i class="bi bi-rulers me-2"></i> Projeto</h5><p class="card-text">Detalhamento, apoio técnico no local, orçamentos e cronogramas de trabalho.</p></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Materials -->
+  <section id="materials" class="section bg-light reveal" aria-labelledby="materials-title">
+    <div class="container">
+      <h2 id="materials-title" class="h1">Materiais</h2>
+      <hr class="rule mb-4">
+      
+      <!-- Materials Content -->
+      <div class="materials-content">
+        <div class="row align-items-center">
+          <!-- Materials List - Left Side -->
+          <div class="col-lg-6">
+            <div class="materials-list">
+              <ul class="materials-items">
+                <li class="material-item">
+                  <div class="material-content">
+                    <h5>Zinco</h5>
+                    <p>VMZINC • elZinc • RHEINZINK</p>
+                    <span class="material-desc">Líder mundial em zinco titânio</span>
+                  </div>
+                </li>
+                <li class="material-item">
+                  <div class="material-content">
+                    <h5>Cobre</h5>
+                    <p>Materiais de alta qualidade</p>
+                    <span class="material-desc">Durabilidade e resistência excepcionais</span>
+                  </div>
+                </li>
+                <li class="material-item">
+                  <div class="material-content">
+                    <h5>Compósitos</h5>
+                    <p>Soluções modernas</p>
+                    <span class="material-desc">Tecnologia avançada para máxima performance</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Materials Slider - Right Side -->
+          <div class="col-lg-6">
+            <div class="materials-slider-container">
+              <div class="swiper materials-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="materials-slide">
+                      <img src="assets/images/materials.jpeg" alt="Materiais ZincArt" class="materials-image">
+                      <div class="materials-overlay">
+                        <h3>Materiais Premium</h3>
+                        <p>Utilizamos apenas materiais certificados dos principais fabricantes mundiais</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="materials-slide">
+                      <img src="assets/images/materials-2.jpeg" alt="Materiais ZincArt" class="materials-image">
+                      <div class="materials-overlay">
+                        <h3>Qualidade Garantida</h3>
+                        <p>Controle de qualidade em cada etapa da produção</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section reveal" aria-labelledby="gallery-title">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 id="gallery-title" class="h1 gradient-text">Portfólio e Galeria</h2>
+        <p class="lead text-muted">Exemplos dos nossos trabalhos: telhados, fachadas e caleiras</p>
+      </div>
+      
+      <!-- Dynamic Gallery Grid -->
+      <div class="row g-3 gallery" id="dynamicGallery">
+        <!-- Gallery items will be dynamically generated by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="section bg-light reveal" aria-labelledby="process-title">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 id="process-title" class="h1 mb-3">Como trabalhamos</h2>
+        <p class="lead text-muted">Abordagem profissional a cada projeto</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <div class="modern-accordion" id="processAccordion">
+            <div class="process-step-card active" data-step="1">
+              <div class="step-header">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                  <h4 class="step-title">Pedido e consulta</h4>
+                  <p class="step-subtitle">Primeiro contacto e análise do projeto</p>
+                </div>
+                <div class="step-icon">
+                  <i class="bi bi-chat-dots"></i>
+                </div>
+              </div>
+              <div class="step-body">
+                <div class="step-details">
+                  <p>Envie-nos planos, fotografias do edifício e uma breve descrição das suas necessidades. Os nossos especialistas realizam uma consulta inicial e avaliam a complexidade do projeto.</p>
+                  <ul class="step-features">
+                    <li><i class="bi bi-check-circle"></i> Consulta gratuita</li>
+                    <li><i class="bi bi-check-circle"></i> Análise técnica</li>
+                    <li><i class="bi bi-check-circle"></i> Avaliação preliminar de prazos</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="process-step-card" data-step="2">
+              <div class="step-header">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                  <h4 class="step-title">Cálculo e planeamento</h4>
+                  <p class="step-subtitle">Orçamento detalhado e solução técnica</p>
+                </div>
+                <div class="step-icon">
+                  <i class="bi bi-calculator"></i>
+                </div>
+              </div>
+              <div class="step-body">
+                <div class="step-details">
+                  <p>Preparação de orçamento detalhado em 24–48 horas com recomendações sobre materiais, cores e soluções técnicas. Visita ao local para medições precisas.</p>
+                  <ul class="step-features">
+                    <li><i class="bi bi-check-circle"></i> Orçamento detalhado em 24–48 horas</li>
+                    <li><i class="bi bi-check-circle"></i> Recomendações de materiais</li>
+                    <li><i class="bi bi-check-circle"></i> Visita ao local para medições</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="process-step-card" data-step="3">
+              <div class="step-header">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                  <h4 class="step-title">Produção</h4>
+                  <p class="step-subtitle">Fabrico e preparação de materiais</p>
+                </div>
+                <div class="step-icon">
+                  <i class="bi bi-gear"></i>
+                </div>
+              </div>
+              <div class="step-body">
+                <div class="step-details">
+                  <p>Fabrico de todos os elementos na nossa oficina com materiais premium. Controlo de qualidade em todas as etapas da produção.</p>
+                  <ul class="step-features">
+                    <li><i class="bi bi-check-circle"></i> Fabrico na nossa própria oficina</li>
+                    <li><i class="bi bi-check-circle"></i> Controlo de qualidade</li>
+                    <li><i class="bi bi-check-circle"></i> Logística e entrega</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="process-step-card" data-step="4">
+              <div class="step-header">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                  <h4 class="step-title">Instalação e entrega</h4>
+                  <p class="step-subtitle">Instalação profissional e garantia</p>
+                </div>
+                <div class="step-icon">
+                  <i class="bi bi-tools"></i>
+                </div>
+              </div>
+              <div class="step-body">
+                <div class="step-details">
+                  <p>Instalação segura e profissional, cumprindo todos os padrões técnicos. Entrega do projeto com documentação completa e garantia de 10 anos.</p>
+                  <ul class="step-features">
+                    <li><i class="bi bi-check-circle"></i> Instalação profissional</li>
+                    <li><i class="bi bi-check-circle"></i> Cumprimento dos padrões de segurança</li>
+                    <li><i class="bi bi-check-circle"></i> Garantia de 10 anos</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="quality-guarantee-card">
+            <div class="guarantee-header">
+              <div class="guarantee-icon">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h4>Garantia de qualidade</h4>
+            </div>
+            <div class="guarantee-content">
+              <div class="guarantee-item">
+                <i class="bi bi-award"></i>
+                <div>
+                  <h6>Materiais premium</h6>
+                  <p>VMZINC, elZinc, RHEINZINK</p>
+                </div>
+              </div>
+              <div class="guarantee-item">
+                <i class="bi bi-clock"></i>
+                <div>
+                  <h6>Cumprimento de prazos</h6>
+                  <p>Prazos e orçamentos transparentes</p>
+                </div>
+              </div>
+              <div class="guarantee-item">
+                <i class="bi bi-people"></i>
+                <div>
+                  <h6>Equipa certificada</h6>
+                  <p>Profissionais experientes</p>
+                </div>
+              </div>
+              <div class="guarantee-item">
+                <i class="bi bi-shield"></i>
+                <div>
+                  <h6>Garantia 10 anos</h6>
+                  <p>Em todos os tipos de trabalho</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section bg-light reveal" aria-labelledby="pricing-title">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col-lg-8 mx-auto">
+          <h2 id="pricing-title" class="h1 gradient-text mb-4">Consulta gratuita</h2>
+          <p class="lead">Obtenha uma consulta profissional e um orçamento preliminar sem compromisso</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <div class="consultation-content">
+            <h3 class="consultation-title">Consulta profissional</h3>
+            <div class="consultation-price">
+              <span class="price-value">Gratuita</span>
+              <span class="price-note">sem compromisso</span>
+            </div>
+            <div class="consultation-features">
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Visita ao local</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Medições e cálculos</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Orçamento preliminar</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Recomendações de materiais</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="consultation-cta">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              <i class="bi bi-calendar-check me-2"></i>
+              Marcar consulta gratuita
+            </a>
+            <p class="small text-muted mt-3">Respondemos em 24 horas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section reveal" aria-labelledby="faq-title">
+    <div class="container">
+      <h2 id="faq-title" class="h1 text-center mb-5">Perguntas Frequentes</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Trabalham em todo o país?</span>
+              <i class="bi bi-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Sim, realizamos projetos em todo o território nacional. A nossa equipa desloca-se a Lisboa, Porto, Braga, Coimbra, Aveiro e outras cidades. As visitas para medições e consultas são gratuitas.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Que garantias oferecem?</span>
+              <i class="bi bi-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Oferecemos uma garantia de 10 anos nos trabalhos de instalação. Todos os trabalhos são realizados em conformidade com as normas técnicas.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Com que rapidez posso obter um orçamento?</span>
+              <i class="bi bi-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Fornecemos orçamentos preliminares em 24–48 horas após receber os detalhes do projeto. Para um cálculo preciso, envie planos, fotografias e uma breve descrição — ou marque uma visita para medições no local.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Com que materiais trabalham?</span>
+              <i class="bi bi-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Trabalhamos com zinco (VMZINC, elZinc, RHEINZINK), várias ligas de cobre e subsistemas compatíveis, membranas e fixações. Todos os materiais são certificados e têm garantia do fabricante.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Quais são os prazos de conclusão?</span>
+              <i class="bi bi-chevron-down faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Os prazos dependem do volume e da complexidade do projeto. Cumprimos sempre as datas acordadas e mantemos os clientes informados sobre o progresso.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax Section -->
+  <section class="parallax-section" aria-label="Secção parallax">
+    <div class="parallax-bg" style="background-image: url('assets/images/header.jpg');"></div>
+    <div class="parallax-overlay"></div>
+    <div class="container h-100 d-flex align-items-center">
+      <div class="row w-100 justify-content-center text-center">
+        <div class="col-lg-10">
+          <div class="parallax-content">
+            <h2 class="display-4 fw-bold mb-4">Qualidade premium</h2>
+            <p class="lead mb-5">Mais de 10 anos de experiência com revestimentos de zinco e cobre. Utilizamos apenas materiais certificados e tecnologias modernas de instalação.</p>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="text-center">
+                  <i class="bi bi-award display-4 mb-3"></i>
+                  <h5>Materiais certificados</h5>
+                  <p class="small">VMZINC, elZinc, RHEINZINK</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center">
+                  <i class="bi bi-tools display-4 mb-3"></i>
+                  <h5>Equipamento moderno</h5>
+                  <p class="small">Processamento de metal de precisão</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center">
+                  <i class="bi bi-shield-check display-4 mb-3"></i>
+                  <h5>Garantia 10 anos</h5>
+                  <p class="small">Em todos os trabalhos de instalação</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Advantages Section -->
+  <section class="advantages section reveal" aria-labelledby="advantages-title">
+    <div class="container">
+      <h2 id="advantages-title" class="h1 text-center mb-5">Vantagens de trabalhar connosco</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <div class="icon"><i class="bi bi-shield-check"></i></div>
+              <h5 class="card-title">Garantia de qualidade</h5>
+              <p class="card-text">10 anos de garantia em todos os tipos de trabalho. Apenas materiais premium certificados.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <div class="icon"><i class="bi bi-clock"></i></div>
+              <h5 class="card-title">Prazos rápidos</h5>
+              <p class="card-text">Orçamento preliminar em 24–48 horas. Instalação dentro dos prazos acordados, sem atrasos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <div class="icon"><i class="bi bi-geo-alt"></i></div>
+              <h5 class="card-title">Em todo o país</h5>
+              <p class="card-text">Trabalhamos em todo o território nacional. Deslocação ao local para medições e consultas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <div class="icon"><i class="bi bi-people"></i></div>
+              <h5 class="card-title">Equipa experiente</h5>
+              <p class="card-text">Mais de 10 anos de experiência com zinco e cobre. Especialistas certificados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modern Features Section -->
+  <section class="section reveal" aria-labelledby="features-title">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col-lg-8 mx-auto">
+          <h2 id="features-title" class="h1 gradient-text mb-4">Porque nos escolher</h2>
+          <p class="lead">Tecnologias modernas, materiais comprovados e anos de experiência</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center">
+            <div class="mb-4">
+              <i class="bi bi-shield-check display-4 text-muted"></i>
+            </div>
+            <h5 class="fw-bold mb-3">10 anos de garantia</h5>
+            <p class="text-muted">Garantia total nos trabalhos de instalação, com possibilidade de extensão</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center">
+            <div class="mb-4">
+              <i class="bi bi-geo-alt display-4 text-muted"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Em todo o país</h5>
+            <p class="text-muted">Atuação em qualquer região, com deslocação ao local</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center">
+            <div class="mb-4">
+              <i class="bi bi-clock display-4 text-muted"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Prazos rápidos</h5>
+            <p class="text-muted">Orçamento em 24–48 horas, instalação nos prazos acordados</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center">
+            <div class="mb-4">
+              <i class="bi bi-award display-4 text-muted"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Materiais certificados</h5>
+            <p class="text-muted">Apenas materiais premium dos principais fabricantes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Info Section -->
+  <section class="contact-dark section reveal" aria-label="Informação de contacto">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="display-5 fw-bold mb-4">Pronto para iniciar o seu projeto?</h2>
+          <p class="lead mb-5">Contacte-nos para uma consulta gratuita e para o cálculo do orçamento. Os nossos especialistas ajudarão a escolher a melhor solução para o seu projeto.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="contact-info-card light text-center">
+            <h5><i class="bi bi-telephone"></i> Ligue</h5>
+            <p class="fw-bold">935 610 516</p>
+            <p class="small">Seg–Sáb: 8:00–20:00</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="contact-info-card light text-center">
+            <h5><i class="bi bi-envelope"></i> Escreva</h5>
+            <p class="fw-bold">zincart.pt@gmail.com</p>
+            <p class="small">Respondemos em até 2 horas</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="contact-info-card light text-center">
+            <h5><i class="bi bi-geo-alt"></i> Todo o Portugal</h5>
+            <p class="fw-bold">Lisboa • Porto • Braga • Coimbra • Aveiro</p>
+            <p class="small">Visita gratuita para medições e consultas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="section bg-light reveal" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 id="contact-title" class="h1 text-center mb-5">Enviar pedido</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="p-4 border bg-white">
+            <p class="text-muted text-center mb-4">Preencha o formulário abaixo e entraremos em contacto em 24 horas</p>
+            <div class="alert alert-success d-none" role="alert" id="formSuccess">Pedido enviado. Entraremos em contacto.</div>
+            <div class="alert alert-danger d-none" role="alert" id="formError">Erro no envio. Tente novamente.</div>
+            <form id="lead" action="https://formspree.io/f/your-id" method="POST" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="name">Nome *</label>
+                  <input id="name" name="name" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="email">Email *</label>
+                  <input id="email" type="email" name="email" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="phone">Telefone</label>
+                  <input id="phone" type="tel" name="phone" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="city">Cidade</label>
+                  <input id="city" name="city" class="form-control" placeholder="Lisboa, Porto, etc.">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="project">Tipo de projeto</label>
+                  <select id="project" name="project" class="form-control">
+                    <option value="">Selecione o tipo de projeto</option>
+                    <option value="roof">Telhado</option>
+                    <option value="facade">Fachada</option>
+                    <option value="drain">Sistema de caleira</option>
+                    <option value="repair">Reparação</option>
+                    <option value="other">Outro</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="message">Descrição do projeto *</label>
+                  <textarea id="message" name="message" rows="5" class="form-control" placeholder="Descreva o seu projeto: endereço, área, materiais, prazos, requisitos especiais..." required></textarea>
+                </div>
+                <div class="col-12 form-check">
+                  <input class="form-check-input" type="checkbox" id="consent" required>
+                  <label class="form-check-label" for="consent">
+                    Concordo com o processamento de dados pessoais para contacto posterior
+                  </label>
+                </div>
+              </div>
+              <div class="text-center mt-4">
+                <button class="btn btn-primary btn-lg" type="submit">
+                  <i class="bi bi-send"></i> Enviar pedido
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <div class="footer-brand">
+            <img src="assets/images/logo-footer.png" alt="Logótipo ZincArt no rodapé" class="footer-logo">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-info text-center">
+            <div class="mb-1"><i class="bi bi-telephone me-2"></i>261 056 388</div>
+            <div class="mb-1"><i class="bi bi-envelope me-2"></i>zinco.geometrico@gmail.com</div>
+            <div><i class="bi bi-geo-alt me-2"></i>Todo o Portugal</div>
+          </div>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <div class="social-section">
+            <a href="https://instagram.com/zincart_pt" class="instagram-link" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+              <span>@zincart_pt</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="rule my-4">
+      <div class="text-center">
+        <div class="small copyright-text" style="color: var(--z-300);">© <span class="current-year"></span> ZincArt — Todos os direitos reservados</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- To Top Button -->
+  <button id="toTop" class="to-top-modern" aria-label="Voltar ao topo">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- JS libs -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" defer></script>
+
+  <!-- App JS -->
+  <script src="/assets/js/main.js" defer></script>
+
+  <!-- schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ZincArt",
+    "url": "https://example.com",
+    "email": "zinco.geometrico@gmail.com",
+    "telephone": "+351-261-056-388",
+    "logo": "https://images.unsplash.com/photo-1584276436428-21b85bd182f9?q=80&w=600&auto=format&fit=crop",
+    "sameAs": ["https://instagram.com", "https://facebook.com", "https://linkedin.com"],
+    "address": {"@type": "PostalAddress", "addressCountry": "PT"}
+  }
+  </script>
+</body>
+</html>

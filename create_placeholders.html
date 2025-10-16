@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Placeholder Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .placeholder { margin: 10px; display: inline-block; }
+        canvas { border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h1>ZincArt Image Placeholders</h1>
+    <p>Right-click and save these images to the appropriate directories:</p>
+    
+    <div id="placeholders"></div>
+
+    <script>
+        function createPlaceholder(width, height, text, filename) {
+            const canvas = document.createElement('canvas');
+            canvas.width = width;
+            canvas.height = height;
+            const ctx = canvas.getContext('2d');
+            
+            // Background gradient
+            const gradient = ctx.createLinearGradient(0, 0, width, height);
+            gradient.addColorStop(0, '#f0f0f0');
+            gradient.addColorStop(1, '#e0e0e0');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, width, height);
+            
+            // Text
+            ctx.fillStyle = '#666';
+            ctx.font = 'bold 24px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(text, width/2, height/2);
+            
+            // Border
+            ctx.strokeStyle = '#ccc';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(0, 0, width, height);
+            
+            return canvas;
+        }
+        
+        const sizes = [
+            { w: 1920, h: 1080, name: 'header-1920.jpg', text: 'Header 1920x1080' },
+            { w: 1440, h: 810, name: 'header-1440.jpg', text: 'Header 1440x810' },
+            { w: 1024, h: 576, name: 'header-1024.jpg', text: 'Header 1024x576' },
+            { w: 768, h: 432, name: 'header-768.jpg', text: 'Header 768x432' },
+            { w: 480, h: 270, name: 'header-480.jpg', text: 'Header 480x270' }
+        ];
+        
+        const gallerySizes = [
+            { w: 600, h: 400, name: 'g1.jpg', text: 'Gallery 1' },
+            { w: 600, h: 400, name: 'g2.jpg', text: 'Gallery 2' },
+            { w: 600, h: 400, name: 'g3.jpg', text: 'Gallery 3' },
+            { w: 600, h: 400, name: 'g4.jpg', text: 'Gallery 4' },
+            { w: 600, h: 400, name: 'g5.jpg', text: 'Gallery 5' },
+            { w: 600, h: 400, name: 'g6.jpg', text: 'Gallery 6' },
+            { w: 600, h: 400, name: 'g7.jpg', text: 'Gallery 7' },
+            { w: 600, h: 400, name: 'g8.jpg', text: 'Gallery 8' },
+            { w: 600, h: 400, name: 'g9.jpg', text: 'Gallery 9' }
+        ];
+        
+        const container = document.getElementById('placeholders');
+        
+        // Header images
+        container.innerHTML += '<h2>Header Images (save to assets/images/)</h2>';
+        sizes.forEach(size => {
+            const canvas = createPlaceholder(size.w, size.h, size.text, size.name);
+            const div = document.createElement('div');
+            div.className = 'placeholder';
+            div.innerHTML = `<p>${size.name}</p>`;
+            div.appendChild(canvas);
+            container.appendChild(div);
+        });
+        
+        // Gallery images
+        container.innerHTML += '<h2>Gallery Images (save to assets/images/gallery/)</h2>';
+        gallerySizes.forEach(size => {
+            const canvas = createPlaceholder(size.w, size.h, size.text, size.name);
+            const div = document.createElement('div');
+            div.className = 'placeholder';
+            div.innerHTML = `<p>${size.name}</p>`;
+            div.appendChild(canvas);
+            container.appendChild(div);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,866 @@
+{
+  "ru": {
+    "nav": {
+      "services": "Услуги",
+      "materials": "Материалы",
+      "portfolio": "Портфолио",
+      "process": "Процесс",
+      "faq": "FAQ",
+      "contact": "Контакты",
+      "whatsapp": "Чат",
+      "quote": "Попросить смету",
+      "menu": "Открыть меню"
+    },
+    "hero": {
+      "title": "Покрытия из цинка и меди",
+      "subtitle": "Премиальное качество для кровель и фасадов",
+      "description": "Изготовление, поставка и монтаж покрытий для кровель и фасадов. Работаем по всей Португалии. Премиальные материалы. Гарантия 10 лет.",
+      "cta": "Попросить смету",
+      "whatsapp": "Чат",
+      "eyebrow": "Кровли • Фасады • Листовой металл",
+      "trust": "10+ лет опыта • Сертифицированные материалы • Договор и гарантия • Вся Португалия",
+      "guarantee": "Гарантия",
+      "guaranteeValue": "10 лет"
+    },
+    "stats": {
+      "title": "Цифры, которые говорят сами за себя",
+      "subtitle": "Более десяти лет мы создаём надёжные кровельные решения, которые выдерживают испытание временем",
+      "experience": "лет опыта",
+      "projects": "завершённых проектов",
+      "warranty": "лет гарантии"
+    },
+    "services": {
+      "title": "Услуги",
+      "roofing": {
+        "title": "Кровли (фальц/клик‑фальц)",
+        "description": "Титано‑цинк: утепление, вентиляция, узлы примыканий, снегозадержание."
+      },
+      "facades": {
+        "title": "Фасады и мансарды",
+        "description": "Вентилируемые фасады: кассеты, панели, архитектурные решения из цинка/меди."
+      },
+      "gutters": {
+        "title": "Водосточные системы",
+        "description": "Жёлоба, трубы, воронки и аксессуары — изготовление и монтаж."
+      },
+      "decor": {
+        "title": "Декор и элементы",
+        "description": "Парапеты, дымники, купола, фонари, обрамления окон и карнизы."
+      },
+      "repair": {
+        "title": "Ремонт и сервис",
+        "description": "Локальные ремонты, замена элементов, инспекции и обслуживание."
+      },
+      "design": {
+        "title": "Проектирование",
+        "description": "Деталировка, техподдержка на объекте, сметы и графики работ."
+      }
+    },
+    "materials": {
+      "title": "Материалы",
+      "zinc": "Цинк",
+      "copper": "Медь",
+      "composites": "Композиты",
+      "compositesDesc": "Современные решения",
+      "zincDesc": "Мировой лидер в области титано-цинка",
+      "copperDesc": "Исключительная долговечность и устойчивость",
+      "compositesDescFull": "Передовые технологии для максимальной производительности"
+    },
+    "gallery": {
+      "title": "Портфолио и галерея",
+      "subtitle": "Примеры наших работ: кровли, фасады и водостоки"
+    },
+    "process": {
+      "title": "Как мы работаем",
+      "subtitle": "Профессиональный подход к каждому проекту",
+      "consultation": {
+        "title": "Заявка и консультация",
+        "subtitle": "Первичный контакт и анализ проекта",
+        "description": "Присылаете планы, фотографии объекта и краткое описание ваших потребностей. Наши специалисты проводят первичную консультацию и оценивают сложность проекта.",
+        "features": [
+          "Бесплатная консультация",
+          "Анализ технических возможностей",
+          "Предварительная оценка сроков"
+        ]
+      },
+      "planning": {
+        "title": "Расчёт и планирование",
+        "subtitle": "Детальная смета и техническое решение",
+        "description": "Подготовка детальной сметы в течение 24-48 часов с рекомендациями по материалам, цветам и техническим решениям. Выезд на объект для точных замеров.",
+        "features": [
+          "Детальная смета за 24-48 часов",
+          "Рекомендации по материалам",
+          "Выезд на объект для замеров"
+        ]
+      },
+      "production": {
+        "title": "Производство",
+        "subtitle": "Изготовление и подготовка материалов",
+        "description": "Изготовление всех элементов в нашей мастерской с использованием премиальных материалов. Контроль качества на каждом этапе производства.",
+        "features": [
+          "Изготовление в собственной мастерской",
+          "Контроль качества материалов",
+          "Логистика и доставка"
+        ]
+      },
+      "installation": {
+        "title": "Монтаж и сдача",
+        "subtitle": "Профессиональный монтаж и гарантия",
+        "description": "Безопасный и профессиональный монтаж с соблюдением всех технических стандартов. Сдача объекта с полной документацией и гарантией 10 лет.",
+        "features": [
+          "Профессиональный монтаж",
+          "Соблюдение стандартов безопасности",
+          "Гарантия 10 лет на работы"
+        ]
+      },
+      "guarantee": {
+        "title": "Гарантия качества",
+        "materials": {
+          "title": "Премиальные материалы",
+          "description": "VMZINC, elZinc, RHEINZINK"
+        },
+        "timing": {
+          "title": "Соблюдение сроков",
+          "description": "Прозрачные сроки и смета"
+        },
+        "team": {
+          "title": "Сертифицированная команда",
+          "description": "Опытные мастера"
+        },
+        "warranty": {
+          "title": "Гарантия 10 лет",
+          "description": "На все виды работ"
+        }
+      }
+    },
+    "pricing": {
+      "title": "Бесплатная консультация",
+      "subtitle": "Получите профессиональную консультацию и предварительную смету без обязательств",
+      "consultation": {
+        "title": "Профессиональная консультация",
+        "price": "Бесплатно",
+        "note": "без обязательств",
+        "features": [
+          "Выезд на объект",
+          "Замеры и расчёты",
+          "Предварительная смета",
+          "Рекомендации по материалам"
+        ],
+        "cta": "Заказать консультацию",
+        "response": "Ответим в течение 24 часов"
+      }
+    },
+    "faq": {
+      "title": "Частые вопросы",
+      "questions": [
+        {
+          "question": "Работаете ли вы по всей Португалии?",
+          "answer": "Да, мы выполняем проекты по всей территории Португалии. Наша команда выезжает на объекты в Лиссабон, Порту, Брагу, Коимбру, Авейру и другие города. Выезд на замеры и консультации бесплатный."
+        },
+        {
+          "question": "Какие гарантии вы предоставляете?",
+          "answer": "Мы предоставляем 10 лет гарантии на монтажные работы. Все работы выполняются с соблюдением технических стандартов."
+        },
+        {
+          "question": "Как быстро можно получить смету?",
+          "answer": "Предварительную смету мы предоставляем в течение 24-48 часов после получения технического задания. Для точного расчёта необходимо предоставить планы объекта, фотографии и описание работ. Но лучше назначить встречу для личного снятия размеров"
+        },
+        {
+          "question": "С какими материалами вы работаете?",
+          "answer": "Мы работаем с цинком (VMZINC, elZinc, RHEINZINK), медью различных марок, а также соответствующими подсистемами, мембранами и крепежными элементами. Все материалы сертифицированы и имеют гарантию производителя."
+        },
+        {
+          "question": "Какие сроки выполнения работ?",
+          "answer": "Сроки зависят от объёма и сложности проекта. Мы всегда соблюдаем согласованные сроки и информируем о прогрессе работ."
+        }
+      ]
+    },
+    "parallax": {
+      "title": "Премиальное качество",
+      "subtitle": "Более 10 лет опыта работы с цинковыми и медными покрытиями. Мы используем только сертифицированные материалы и современные технологии монтажа.",
+      "features": [
+        {
+          "title": "Сертифицированные материалы",
+          "description": "VMZINC, elZinc, RHEINZINK"
+        },
+        {
+          "title": "Современное оборудование",
+          "description": "Прецизионная обработка металла"
+        },
+        {
+          "title": "Гарантия 10 лет",
+          "description": "На все виды монтажных работ"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Готовы начать проект?",
+      "subtitle": "Свяжитесь с нами для бесплатной консультации и расчёта сметы. Наши специалисты помогут выбрать оптимальное решение для вашего объекта.",
+      "phone": "935 610 516",
+      "email": "zincart.pt@gmail.com",
+      "location": "Вся Португалия",
+      "contactInfo": {
+        "title": "Готовы начать проект?",
+        "subtitle": "Свяжитесь с нами для бесплатной консультации и расчёта сметы. Наши специалисты помогут выбрать оптимальное решение для вашего объекта.",
+        "locations": "Лиссабон • Порту • Брага • Коимбра • Авейру",
+        "freeVisit": "Бесплатный выезд на замеры и консультации",
+        "responseTime": "Ответим в течение 2 часов",
+        "allPortugal": "Вся Португалия"
+      },
+      "form": {
+        "title": "Отправить заявку",
+        "subtitle": "Заполните форму ниже, и мы свяжемся с вами в течение 24 часов",
+        "name": "Имя",
+        "email": "Email",
+        "phone": "Телефон",
+        "city": "Город",
+        "project": "Тип проекта",
+        "message": "Описание проекта",
+        "messagePlaceholder": "Опишите ваш проект: адрес, площадь, материал, сроки, особые требования...",
+        "cityPlaceholder": "Лиссабон, Порту, и т.д.",
+        "submit": "Отправить заявку",
+        "consent": "Согласен(на) на обработку персональных данных для обратной связи",
+        "success": "Заявка отправлена. Мы свяжемся с вами.",
+        "error": "Ошибка отправки. Попробуйте ещё раз.",
+        "projectTypes": {
+          "placeholder": "Выберите тип проекта",
+          "roof": "Кровля",
+          "facade": "Фасад",
+          "drain": "Водосточная система",
+          "repair": "Ремонт",
+          "other": "Другое"
+        }
+      }
+    },
+    "advantages": {
+      "title": "Преимущества работы с нами",
+      "quality": {
+        "title": "Гарантия качества",
+        "description": "10 лет гарантии на все виды работ. Используем только сертифицированные материалы премиум-класса."
+      },
+      "speed": {
+        "title": "Быстрые сроки",
+        "description": "Предварительная смета за 24-48 часов. Монтаж в согласованные сроки без задержек."
+      },
+      "coverage": {
+        "title": "По всей Португалии",
+        "description": "Работаем по всей территории Португалии. Выезжаем на объект для замеров и консультаций."
+      },
+      "team": {
+        "title": "Опытная команда",
+        "description": "Более 10 лет опыта работы с цинковыми и медными покрытиями. Сертифицированные специалисты."
+      }
+    },
+    "warranty": {
+      "title": "10 лет гарантии",
+      "description": "Полная гарантия на все виды монтажных работ с возможностью продления"
+    },
+    "coverage": {
+      "title": "По всей Португалии",
+      "description": "Работаем в любом регионе страны с выездом на объект"
+    },
+    "speed": {
+      "title": "Быстрые сроки",
+      "description": "Смета за 24-48 часов, монтаж в согласованные сроки"
+    },
+    "materialsSection": {
+      "title": "Сертифицированные материалы",
+      "description": "Только премиальные материалы от ведущих производителей"
+    },
+    "features": {
+      "title": "Почему выбирают именно нас",
+      "subtitle": "Современные технологии, проверенные материалы и многолетний опыт работы"
+    },
+    "footer": {
+      "description": "Покрытия из цинка и меди для кровель и фасадов. Работаем по всей Португалии.",
+      "instagram": "Следите за нами",
+      "copyright": "© 2025 ZincArt — Все права защищены",
+      "phone": "935 610 516",
+      "email": "zincart.pt@gmail.com",
+      "location": "Вся Португалия",
+      "instagramHandle": "@zincart_pt"
+    },
+    "loader": {
+      "loading": "Загрузка..."
+    },
+    "menu": {
+      "title": "Меню"
+    }
+  },
+  "en": {
+    "nav": {
+      "services": "Services",
+      "materials": "Materials",
+      "portfolio": "Portfolio",
+      "process": "Process",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "whatsapp": "Chat",
+      "quote": "Get Quote",
+      "menu": "Open Menu"
+    },
+    "hero": {
+      "title": "Zinc and Copper Cladding",
+      "subtitle": "Premium Quality for Roofs and Facades",
+      "description": "Manufacturing, supply and installation of cladding for roofs and facades. We work across Portugal. Premium materials. 10 year warranty.",
+      "cta": "Get Quote",
+      "whatsapp": "Chat",
+      "eyebrow": "Roofs • Facades • Sheet Metal",
+      "trust": "10+ years experience • Certified materials • Contract and warranty • All Portugal",
+      "guarantee": "Warranty",
+      "guaranteeValue": "10 years"
+    },
+    "stats": {
+      "title": "Numbers that speak for themselves",
+      "subtitle": "For more than ten years we have been creating reliable roofing solutions that stand the test of time",
+      "experience": "years of experience",
+      "projects": "completed projects",
+      "warranty": "years warranty"
+    },
+    "services": {
+      "title": "Services",
+      "roofing": {
+        "title": "Roofs (seam/click-seam)",
+        "description": "Titanium-zinc: insulation, ventilation, junction details, snow retention."
+      },
+      "facades": {
+        "title": "Facades and attics",
+        "description": "Ventilated facades: cassettes, panels, architectural solutions in zinc/copper."
+      },
+      "gutters": {
+        "title": "Gutter systems",
+        "description": "Gutters, pipes, funnels and accessories — manufacturing and installation."
+      },
+      "decor": {
+        "title": "Decorative elements",
+        "description": "Parapets, chimneys, domes, lanterns, window frames and cornices."
+      },
+      "repair": {
+        "title": "Repair and service",
+        "description": "Local repairs, element replacement, inspections and maintenance."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Detailing, on-site technical support, estimates and work schedules."
+      }
+    },
+    "materials": {
+      "title": "Materials",
+      "zinc": "Zinc",
+      "copper": "Copper",
+      "composites": "Composites",
+      "compositesDesc": "Modern solutions",
+      "zincDesc": "World leader in titanium zinc",
+      "copperDesc": "Exceptional durability and resistance",
+      "compositesDescFull": "Advanced technology for maximum performance"
+    },
+    "gallery": {
+      "title": "Portfolio and Gallery",
+      "subtitle": "Examples of our work: roofs, facades and gutters"
+    },
+    "process": {
+      "title": "How we work",
+      "subtitle": "Professional approach to every project",
+      "consultation": {
+        "title": "Request and consultation",
+        "subtitle": "Initial contact and project analysis",
+        "description": "Send us plans, photos of the building and a brief description of your needs. Our specialists conduct initial consultation and assess project complexity.",
+        "features": [
+          "Free consultation",
+          "Analysis of technical capabilities",
+          "Preliminary timeline assessment"
+        ]
+      },
+      "planning": {
+        "title": "Calculation and planning",
+        "subtitle": "Detailed estimate and technical solution",
+        "description": "Preparation of detailed estimate within 24-48 hours with recommendations on materials, colors and technical solutions. Site visit for accurate measurements.",
+        "features": [
+          "Detailed estimate in 24-48 hours",
+          "Material recommendations",
+          "Site visit for measurements"
+        ]
+      },
+      "production": {
+        "title": "Production",
+        "subtitle": "Manufacturing and material preparation",
+        "description": "Manufacturing all elements in our workshop using premium materials. Quality control at every production stage.",
+        "features": [
+          "Manufacturing in our own workshop",
+          "Material quality control",
+          "Logistics and delivery"
+        ]
+      },
+      "installation": {
+        "title": "Installation and handover",
+        "subtitle": "Professional installation and warranty",
+        "description": "Safe and professional installation in full compliance with technical standards. Project handover with full documentation and 10-year warranty.",
+        "features": [
+          "Professional installation",
+          "Safety standards compliance",
+          "10-year warranty on work"
+        ]
+      },
+      "guarantee": {
+        "title": "Quality guarantee",
+        "materials": {
+          "title": "Premium materials",
+          "description": "VMZINC, elZinc, RHEINZINK"
+        },
+        "timing": {
+          "title": "On-time delivery",
+          "description": "Transparent timelines and estimates"
+        },
+        "team": {
+          "title": "Certified team",
+          "description": "Experienced craftsmen"
+        },
+        "warranty": {
+          "title": "10-year warranty",
+          "description": "On all types of work"
+        }
+      }
+    },
+    "pricing": {
+      "title": "Free consultation",
+      "subtitle": "Get professional consultation and preliminary estimate without obligation",
+      "consultation": {
+        "title": "Professional consultation",
+        "price": "Free",
+        "note": "no obligation",
+        "features": [
+          "Site visit",
+          "Measurements and calculations",
+          "Preliminary estimate",
+          "Material recommendations"
+        ],
+        "cta": "Order consultation",
+        "response": "We'll respond within 24 hours"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "Do you work throughout Portugal?",
+          "answer": "Yes, we carry out projects throughout Portugal. Our team travels to sites in Lisbon, Porto, Braga, Coimbra, Aveiro and other cities. Site visits for measurements and consultations are free."
+        },
+        {
+          "question": "What guarantees do you provide?",
+          "answer": "We provide a 10-year warranty on installation work. All work is performed in compliance with technical standards."
+        },
+        {
+          "question": "How quickly can I get an estimate?",
+          "answer": "We provide preliminary estimates within 24-48 hours of receiving the technical specification. For accurate calculation, it is necessary to provide object plans, photos and work description. But it's better to schedule a meeting for personal measurements"
+        },
+        {
+          "question": "What materials do you work with?",
+          "answer": "We work with zinc (VMZINC, elZinc, RHEINZINK), copper of various grades, as well as corresponding subsystems, membranes and fastening elements. All materials are certified and have manufacturer warranty."
+        },
+        {
+          "question": "What are the work completion times?",
+          "answer": "Timelines depend on the volume and complexity of the project. We always comply with agreed deadlines and inform about work progress."
+        }
+      ]
+    },
+    "parallax": {
+      "title": "Premium quality",
+      "subtitle": "More than 10 years of experience working with zinc and copper coatings. We use only certified materials and modern installation technologies.",
+      "features": [
+        {
+          "title": "Certified materials",
+          "description": "VMZINC, elZinc, RHEINZINK"
+        },
+        {
+          "title": "Modern equipment",
+          "description": "Precision metal processing"
+        },
+        {
+          "title": "10-year warranty",
+          "description": "On all types of installation work"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Ready to start your project?",
+      "subtitle": "Contact us for free consultation and estimate calculation. Our specialists will help you choose the optimal solution for your object.",
+      "phone": "935 610 516",
+      "email": "zincart.pt@gmail.com",
+      "location": "All Portugal",
+      "contactInfo": {
+        "title": "Ready to start your project?",
+        "subtitle": "Contact us for free consultation and estimate calculation. Our specialists will help you choose the optimal solution for your object.",
+        "locations": "Lisbon • Porto • Braga • Coimbra • Aveiro",
+        "freeVisit": "Free site visit for measurements and consultations",
+        "responseTime": "We respond within 2 hours",
+        "allPortugal": "All Portugal"
+      },
+      "form": {
+        "title": "Send request",
+        "subtitle": "Fill out the form below and we will contact you within 24 hours",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "city": "City",
+        "project": "Project type",
+        "message": "Project description",
+        "messagePlaceholder": "Describe your project: address, area, material, deadlines, special requirements...",
+        "cityPlaceholder": "Lisbon, Porto, etc.",
+        "submit": "Send request",
+        "consent": "I agree to the processing of personal data for feedback",
+        "success": "Application sent. We will contact you.",
+        "error": "Sending error. Please try again.",
+        "projectTypes": {
+          "placeholder": "Select project type",
+          "roof": "Roof",
+          "facade": "Facade",
+          "drain": "Gutter system",
+          "repair": "Repair",
+          "other": "Other"
+        }
+      }
+    },
+    "advantages": {
+      "title": "Advantages of working with us",
+      "quality": {
+        "title": "Quality guarantee",
+        "description": "10-year warranty on all types of work. We use only certified premium materials."
+      },
+      "speed": {
+        "title": "Fast timelines",
+        "description": "Preliminary estimate in 24-48 hours. Installation within agreed deadlines without delays."
+      },
+      "coverage": {
+        "title": "Throughout Portugal",
+        "description": "We work throughout Portugal. We travel to sites for measurements and consultations."
+      },
+      "team": {
+        "title": "Experienced team",
+        "description": "More than 10 years of experience working with zinc and copper coatings. Certified specialists."
+      }
+    },
+    "warranty": {
+      "title": "10-year warranty",
+      "description": "Complete warranty on all types of installation work with possibility of extension"
+    },
+    "coverage": {
+      "title": "Throughout Portugal",
+      "description": "We work in any region of the country with site visits"
+    },
+    "speed": {
+      "title": "Fast timelines",
+      "description": "Estimate in 24-48 hours, installation within agreed deadlines"
+    },
+    "materialsSection": {
+      "title": "Certified materials",
+      "description": "Only premium materials from leading manufacturers"
+    },
+    "features": {
+      "title": "Why choose us",
+      "subtitle": "Modern technologies, proven materials and years of experience"
+    },
+    "footer": {
+      "description": "Zinc and copper coatings for roofs and facades. We work throughout Portugal.",
+      "instagram": "Follow us",
+      "copyright": "© 2025 ZincArt — All rights reserved",
+      "phone": "935 610 516",
+      "email": "zincart.pt@gmail.com",
+      "location": "All Portugal",
+      "instagramHandle": "@zincart_pt"
+    },
+    "loader": {
+      "loading": "Loading..."
+    },
+    "menu": {
+      "title": "Menu"
+    }
+  },
+  "pt": {
+    "nav": {
+      "services": "Serviços",
+      "materials": "Materiais",
+      "portfolio": "Portfólio",
+      "process": "Processo",
+      "faq": "FAQ",
+      "contact": "Contacto",
+      "whatsapp": "Conversa",
+      "quote": "Pedir Orçamento",
+      "menu": "Abrir Menu"
+    },
+    "hero": {
+      "title": "Revestimentos em Zinco e Cobre",
+      "subtitle": "Qualidade Premium para Telhados e Fachadas",
+      "description": "Fabricação, fornecimento e instalação de revestimentos para telhados e fachadas. Trabalhamos em todo o Portugal. Materiais premium. Garantia de 10 anos.",
+      "cta": "Pedir Orçamento",
+      "whatsapp": "Conversa",
+      "eyebrow": "Telhados • Fachadas • Chapa Metálica",
+      "trust": "10+ anos de experiência • Materiais certificados • Contrato e garantia • Todo o Portugal",
+      "guarantee": "Garantia",
+      "guaranteeValue": "10 anos"
+    },
+    "stats": {
+      "title": "Números que falam por si",
+      "subtitle": "Há mais de dez anos que criamos soluções de telhado fiáveis que resistem ao teste do tempo",
+      "experience": "anos de experiência",
+      "projects": "projetos concluídos",
+      "warranty": "anos de garantia"
+    },
+    "services": {
+      "title": "Serviços",
+      "roofing": {
+        "title": "Telhados (costura agrafada/click-costura)",
+        "description": "Titânio-zinco: isolamento, ventilação, detalhes de junção, retenção de neve."
+      },
+      "facades": {
+        "title": "Fachadas e sótãos",
+        "description": "Fachadas ventiladas: cassetes, painéis, soluções arquitetónicas em zinco/cobre."
+      },
+      "gutters": {
+        "title": "Sistemas de caleira",
+        "description": "Caleiras, tubos, funis e acessórios — fabrico e instalação."
+      },
+      "decor": {
+        "title": "Elementos decorativos",
+        "description": "Parapeitos, chaminés, cúpulas, lanternas, molduras de janelas e cornijas."
+      },
+      "repair": {
+        "title": "Reparação e serviço",
+        "description": "Reparações locais, substituição de elementos, inspeções e manutenção."
+      },
+      "design": {
+        "title": "Projeto",
+        "description": "Detalhamento, apoio técnico no local, orçamentos e cronogramas de trabalho."
+      }
+    },
+    "materials": {
+      "title": "Materiais",
+      "zinc": "Zinco",
+      "copper": "Cobre",
+      "composites": "Compósitos",
+      "compositesDesc": "Soluções modernas",
+      "zincDesc": "Líder mundial em zinco titânio",
+      "copperDesc": "Durabilidade e resistência excepcionais",
+      "compositesDescFull": "Tecnologia avançada para máxima performance"
+    },
+    "gallery": {
+      "title": "Portfólio e Galeria",
+      "subtitle": "Exemplos dos nossos trabalhos: telhados, fachadas e caleiras"
+    },
+    "process": {
+      "title": "Como trabalhamos",
+      "subtitle": "Abordagem profissional a cada projeto",
+      "consultation": {
+        "title": "Pedido e consulta",
+        "subtitle": "Contacto inicial e análise do projeto",
+        "description": "Envie-nos planos, fotografias do edifício e uma breve descrição das suas necessidades. Os nossos especialistas realizam consulta inicial e avaliam a complexidade do projeto.",
+        "features": [
+          "Consulta gratuita",
+          "Análise de capacidades técnicas",
+          "Avaliação preliminar de prazos"
+        ]
+      },
+      "planning": {
+        "title": "Cálculo e planeamento",
+        "subtitle": "Orçamento detalhado e solução técnica",
+        "description": "Preparação de orçamento detalhado em 24-48 horas com recomendações sobre materiais, cores e soluções técnicas. Visita ao local para medições precisas.",
+        "features": [
+          "Orçamento detalhado em 24-48 horas",
+          "Recomendações de materiais",
+          "Visita ao local para medições"
+        ]
+      },
+      "production": {
+        "title": "Produção",
+        "subtitle": "Fabricação e preparação de materiais",
+        "description": "Fabricação de todos os elementos na nossa oficina utilizando materiais premium. Controlo de qualidade em cada etapa da produção.",
+        "features": [
+          "Fabricação na nossa própria oficina",
+          "Controlo de qualidade dos materiais",
+          "Logística e entrega"
+        ]
+      },
+      "installation": {
+        "title": "Instalação e entrega",
+        "subtitle": "Instalação profissional e garantia",
+        "description": "Instalação segura e profissional seguindo todos os padrões técnicos. Entrega do projeto com documentação completa e garantia de 10 anos.",
+        "features": [
+          "Instalação profissional",
+          "Cumprimento dos padrões de segurança",
+          "Garantia de 10 anos nos trabalhos"
+        ]
+      },
+      "guarantee": {
+        "title": "Garantia de qualidade",
+        "materials": {
+          "title": "Materiais premium",
+          "description": "VMZINC, elZinc, RHEINZINK"
+        },
+        "timing": {
+          "title": "Cumprimento de prazos",
+          "description": "Prazos e orçamentos transparentes"
+        },
+        "team": {
+          "title": "Equipa certificada",
+          "description": "Artífices experientes"
+        },
+        "warranty": {
+          "title": "Garantia de 10 anos",
+          "description": "Em todos os tipos de trabalho"
+        }
+      }
+    },
+    "pricing": {
+      "title": "Consulta gratuita",
+      "subtitle": "Obtenha consulta profissional e orçamento preliminar sem compromisso",
+      "consultation": {
+        "title": "Consulta profissional",
+        "price": "Gratuito",
+        "note": "sem compromisso",
+        "features": [
+          "Visita ao local",
+          "Medições e cálculos",
+          "Orçamento preliminar",
+          "Recomendações de materiais"
+        ],
+        "cta": "Encomendar consulta",
+        "response": "Respondemos em 24 horas"
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "questions": [
+        {
+          "question": "Trabalham em todo o país?",
+          "answer": "Sim, realizamos projetos em todo o Portugal. A nossa equipa desloca-se a locais em Lisboa, Porto, Braga, Coimbra, Aveiro e outras cidades. As visitas ao local para medições e consultas são gratuitas."
+        },
+        {
+          "question": "Que garantias oferece?",
+          "answer": "Oferecemos garantia de 10 anos nos trabalhos de instalação. Todos os trabalhos são realizados em conformidade com os padrões técnicos."
+        },
+        {
+          "question": "Com que rapidez posso obter um orçamento?",
+          "answer": "Fornecemos orçamentos preliminares em 24-48 horas após receber a especificação técnica. Para cálculo preciso, é necessário fornecer planos do edifício, fotografias e descrição dos trabalhos. Mas é melhor marcar uma reunião para medições pessoais"
+        },
+        {
+          "question": "Com que materiais trabalha?",
+          "answer": "Trabalhamos com zinco (VMZINC, elZinc, RHEINZINK), cobre de várias marcas, bem como subsistemas correspondentes, membranas e elementos de fixação. Todos os materiais são certificados e têm garantia do fabricante."
+        },
+        {
+          "question": "Quais são os prazos de conclusão dos trabalhos?",
+          "answer": "Os prazos dependem do volume e complexidade do projeto. Sempre cumprimos os prazos acordados e informamos sobre o progresso dos trabalhos."
+        }
+      ]
+    },
+    "parallax": {
+      "title": "Qualidade premium",
+      "subtitle": "Mais de 10 anos de experiência no trabalho com revestimentos de zinco e cobre. Utilizamos apenas materiais certificados e tecnologias modernas de instalação.",
+      "features": [
+        {
+          "title": "Materiais certificados",
+          "description": "VMZINC, elZinc, RHEINZINK"
+        },
+        {
+          "title": "Equipamento moderno",
+          "description": "Processamento de metal de precisão"
+        },
+        {
+          "title": "Garantia de 10 anos",
+          "description": "Em todos os tipos de trabalho de instalação"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Pronto para iniciar o seu projeto?",
+      "subtitle": "Contacte-nos para uma consulta gratuita e para o cálculo do orçamento. Os nossos especialistas ajudarão a escolher a melhor solução para o seu projeto.",
+      "phone": "935 610 516",
+      "email": "zincart.pt@gmail.com",
+      "location": "Todo o Portugal",
+      "contactInfo": {
+        "title": "Pronto para iniciar o seu projeto?",
+        "subtitle": "Contacte-nos para uma consulta gratuita e para o cálculo do orçamento. Os nossos especialistas ajudarão a escolher a melhor solução para o seu projeto.",
+        "locations": "Lisboa • Porto • Braga • Coimbra • Aveiro",
+        "freeVisit": "Visita gratuita para medições e consultas",
+        "responseTime": "Respondemos em 2 horas",
+        "allPortugal": "Todo o Portugal"
+      },
+      "form": {
+        "title": "Enviar pedido",
+        "subtitle": "Preencha o formulário abaixo e entraremos em contacto em 24 horas",
+        "name": "Nome",
+        "email": "Email",
+        "phone": "Telefone",
+        "city": "Cidade",
+        "project": "Tipo de projeto",
+        "message": "Descrição do projeto",
+        "messagePlaceholder": "Descreva o seu projeto: endereço, área, material, prazos, requisitos especiais...",
+        "cityPlaceholder": "Lisboa, Porto, etc.",
+        "submit": "Enviar pedido",
+        "consent": "Concordo com o processamento de dados pessoais para feedback",
+        "success": "Pedido enviado. Entraremos em contacto.",
+        "error": "Erro no envio. Tente novamente.",
+        "projectTypes": {
+          "placeholder": "Selecione o tipo de projeto",
+          "roof": "Telhado",
+          "facade": "Fachada",
+          "drain": "Sistema de caleira",
+          "repair": "Reparação",
+          "other": "Outro"
+        }
+      }
+    },
+    "advantages": {
+      "title": "Vantagens de trabalhar connosco",
+      "quality": {
+        "title": "Garantia de qualidade",
+        "description": "Garantia de 10 anos em todos os tipos de trabalho. Utilizamos apenas materiais premium certificados."
+      },
+      "speed": {
+        "title": "Prazos rápidos",
+        "description": "Orçamento preliminar em 24-48 horas. Instalação dentro dos prazos acordados sem atrasos."
+      },
+      "coverage": {
+        "title": "Em todo o Portugal",
+        "description": "Trabalhamos em todo o Portugal. Deslocamo-nos ao local para medições e consultas."
+      },
+      "team": {
+        "title": "Equipa experiente",
+        "description": "Mais de 10 anos de experiência no trabalho com revestimentos de zinco e cobre. Especialistas certificados."
+      }
+    },
+    "warranty": {
+      "title": "10 anos de garantia",
+      "description": "Garantia completa em todos os tipos de trabalho de instalação com possibilidade de extensão"
+    },
+    "coverage": {
+      "title": "Em todo o Portugal",
+      "description": "Trabalhamos em qualquer região do país com deslocação ao local"
+    },
+    "speed": {
+      "title": "Prazos rápidos",
+      "description": "Orçamento em 24-48 horas, instalação nos prazos acordados"
+    },
+    "materialsSection": {
+      "title": "Materiais certificados",
+      "description": "Apenas materiais premium dos principais fabricantes"
+    },
+    "features": {
+      "title": "Porque nos escolher",
+      "subtitle": "Tecnologias modernas, materiais comprovados e anos de experiência"
+    },
+    "footer": {
+      "description": "Revestimentos em zinco e cobre para telhados e fachadas. Trabalhamos em todo o Portugal.",
+      "instagram": "Siga-nos",
+      "copyright": "© 2025 ZincArt — Todos os direitos reservados",
+      "phone": "935 610 516",
+      "email": "zincart.pt@gmail.com",
+      "location": "Todo o Portugal",
+      "instagramHandle": "@zincart_pt"
+    },
+    "loader": {
+      "loading": "A carregar..."
+    },
+    "menu": {
+      "title": "Menu"
+    }
+  }
+}
