@@ -3564,10 +3564,22 @@ body {
 
 /* Mobile Container and Layout Fixes */
 @media (max-width: 768px) {
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
   /* Fix container padding */
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   /* Fix mobile navigation */
@@ -3576,6 +3588,43 @@ body {
     position: sticky;
     top: 0;
     z-index: 1030;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Fix mobile navigation container */
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .navbar .container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .navbar .d-flex {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
   }
   
   /* Fix mobile hero section */
@@ -3622,12 +3671,39 @@ body {
     width: 44px;
     height: 44px;
     padding: 0.5rem;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
   }
   
   .toggler-line {
     width: 24px;
     height: 3px;
     margin: 5px 0;
+  }
+  
+  /* Fix mobile navigation brand */
+  .navbar-brand {
+    flex-shrink: 1;
+    min-width: 0;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Fix mobile navigation buttons */
+  .btn-whatsapp, .btn-primary {
+    display: none !important;
+  }
+  
+  /* Fix mobile navigation spacing */
+  .navbar-container > * {
+    flex-shrink: 0;
+  }
+  
+  .navbar-container .navbar-brand {
+    flex-shrink: 1;
+    min-width: 0;
   }
   
   /* Fix mobile offcanvas */
@@ -3642,11 +3718,62 @@ body {
   /* Fix mobile language switcher */
   .language-switcher {
     margin-left: 0.5rem;
+    flex-shrink: 0;
+    max-width: 80px;
+  }
+  
+  .language-switcher .btn-group {
+    width: 100%;
+    max-width: 80px;
+    overflow: hidden;
   }
   
   .btn-lang {
-    padding: 0.3rem 0.6rem;
-    font-size: 0.8rem;
+    padding: 0.3rem 0.4rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 0;
+  }
+  
+  /* Fix mobile navigation items */
+  .navbar-nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .nav-item {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .nav-link {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+  }
+  
+  /* Fix mobile offcanvas positioning */
+  .offcanvas {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .offcanvas-body {
+    padding: 1rem;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Fix mobile buttons in offcanvas */
+  .offcanvas-body .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1rem;
   }
   
   /* Fix mobile materials section */
@@ -3723,9 +3850,18 @@ body {
 
 /* Extra Small Mobile Devices */
 @media (max-width: 480px) {
+  /* Prevent horizontal scroll on small screens */
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  
   .container {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   .hero-title {
@@ -3752,10 +3888,45 @@ body {
   
   .modern-nav {
     padding: 0.4rem 0.75rem;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   .navbar-brand {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Fix very small screen navigation */
+  .navbar-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .language-switcher {
+    margin-left: 0.25rem;
+  }
+  
+  .btn-lang {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.7rem;
+  }
+  
+  .modern-toggler {
+    width: 40px;
+    height: 40px;
+    padding: 0.4rem;
+    margin-left: 0.25rem;
+  }
+  
+  .toggler-line {
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
   }
   
   .materials-swiper {
@@ -3828,5 +3999,27 @@ body {
   /* Fix viewport issues */
   html {
     -webkit-text-size-adjust: 100%;
+  }
+  
+  /* Final horizontal scroll prevention */
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .col, .col-* {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* Ensure all containers respect viewport width */
+  .container, .container-fluid {
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 }
