@@ -3557,3 +3557,276 @@ body {
     font-size: 0.9rem;
   }
 }
+
+/* ========================================
+   COMPREHENSIVE MOBILE FIXES
+   ======================================== */
+
+/* Mobile Container and Layout Fixes */
+@media (max-width: 768px) {
+  /* Fix container padding */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Fix mobile navigation */
+  .modern-nav {
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+  }
+  
+  /* Fix mobile hero section */
+  .hero {
+    min-height: 100vh;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-content {
+    padding: 1rem 0;
+    width: 100%;
+  }
+  
+  /* Fix mobile sections spacing */
+  .section {
+    padding: 3rem 0;
+  }
+  
+  /* Fix mobile cards */
+  .card {
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+  }
+  
+  /* Fix mobile forms */
+  .form-control {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Fix mobile buttons */
+  .btn {
+    min-height: 44px;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
+  }
+  
+  /* Fix mobile navigation toggler */
+  .modern-toggler {
+    width: 44px;
+    height: 44px;
+    padding: 0.5rem;
+  }
+  
+  .toggler-line {
+    width: 24px;
+    height: 3px;
+    margin: 5px 0;
+  }
+  
+  /* Fix mobile offcanvas */
+  .offcanvas {
+    width: 100% !important;
+  }
+  
+  .offcanvas-body {
+    padding: 2rem 1rem;
+  }
+  
+  /* Fix mobile language switcher */
+  .language-switcher {
+    margin-left: 0.5rem;
+  }
+  
+  .btn-lang {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+  }
+  
+  /* Fix mobile materials section */
+  .materials-content .row {
+    flex-direction: column-reverse;
+  }
+  
+  .materials-list {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .materials-slider-container {
+    padding-left: 0;
+  }
+  
+  /* Fix mobile gallery */
+  .gallery-thumb {
+    margin-bottom: 1rem;
+  }
+  
+  /* Fix mobile process section */
+  .process-step-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Fix mobile FAQ */
+  .faq-item {
+    margin-bottom: 1rem;
+  }
+  
+  .faq-question {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  /* Fix mobile contact form */
+  .contact-form {
+    padding: 1.5rem;
+  }
+  
+  /* Fix mobile footer */
+  .footer {
+    padding: 2rem 0 1rem;
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  /* Fix mobile statistics */
+  .stat-item {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Fix mobile services */
+  .service-card {
+    margin-bottom: 2rem;
+  }
+  
+  /* Fix mobile trust strip */
+  .trust-strip {
+    padding: 0.75rem 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .trust-item {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+  }
+}
+
+/* Extra Small Mobile Devices */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .hero-title {
+    font-size: 1.6rem;
+    line-height: 1.1;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .section {
+    padding: 2.5rem 0;
+  }
+  
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .modern-nav {
+    padding: 0.4rem 0.75rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  
+  .materials-swiper {
+    height: 300px;
+  }
+  
+  .materials-overlay {
+    padding: 1rem;
+  }
+  
+  .materials-overlay h3 {
+    font-size: 1.1rem;
+  }
+  
+  .materials-overlay p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Mobile Landscape Fixes */
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero {
+    min-height: 100vh;
+    padding: 1rem 0;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+}
+
+/* Mobile Performance Optimizations */
+@media (max-width: 768px) {
+  /* Disable animations on mobile for better performance */
+  .swiper {
+    will-change: auto;
+  }
+  
+  .card {
+    will-change: auto;
+  }
+  
+  /* Optimize images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Fix touch targets */
+  .btn, .nav-link, .form-control {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Fix scrolling issues */
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Fix viewport issues */
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+}
