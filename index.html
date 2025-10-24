@@ -110,60 +110,97 @@
       <div class="loader-subtitle">A carregar...</div>
     </div>
   </div>
-  <!-- Header / Navbar -->
-  <header class="site-header">
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light modern-nav" aria-label="Navegação principal">
-      <div class="container">
-        <a class="navbar-brand fw-semibold d-flex align-items-center" href="#home" aria-label="ZincArt">
-          <div class="navbar-logo" role="img" aria-label="Logótipo ZincArt"></div>
-        </a>
-        <div class="d-flex align-items-center gap-2 order-lg-2">
-          <!-- Language Switcher -->
-          <div class="language-switcher me-3">
-            <div class="btn-group" role="group" aria-label="Seletor de idioma">
-              <button class="btn btn-lang active" type="button" data-lang="pt">PT</button>
-              <button class="btn btn-lang" type="button" data-lang="en">EN</button>
-            </div>
+  <!-- Modern Professional Header -->
+  <header class="modern-header">
+    <nav class="navbar navbar-expand-lg navbar-light" aria-label="Navegação principal">
+      <div class="container-fluid">
+        <!-- Logo Section -->
+        <a class="navbar-brand" href="#home" aria-label="ZincArt">
+          <div class="brand-logo">
+            <img src="assets/images/logo.png" alt="ZincArt Logo" class="logo-img">
           </div>
-          <button id="whatsappBtn" class="btn btn-whatsapp d-none d-lg-inline-flex" aria-label="WhatsApp Conversa"><i class="bi bi-whatsapp"></i> Conversa</button>
-          <a class="btn btn-primary d-none d-lg-inline-flex" href="#contact">Pedir Orçamento</a>
-          <button class="navbar-toggler modern-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-label="Abrir Menu">
-            <span class="toggler-line"></span>
-            <span class="toggler-line"></span>
-            <span class="toggler-line"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse d-none d-lg-flex">
-          <ul class="navbar-nav ms-auto modern-nav-links" role="menubar">
-            <li class="nav-item"><a class="nav-link modern-link" href="#services">Serviços</a></li>
-            <li class="nav-item"><a class="nav-link modern-link" href="#materials">Materiais</a></li>
-            <li class="nav-item"><a class="nav-link modern-link" href="#gallery">Portfólio</a></li>
-            <li class="nav-item"><a class="nav-link modern-link" href="#process">Processo</a></li>
-            <li class="nav-item"><a class="nav-link modern-link" href="#faq">FAQ</a></li>
-            <li class="nav-item"><a class="nav-link modern-link" href="#contact">Contacto</a></li>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <div class="navbar-nav-desktop d-none d-lg-flex">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="#materials">Materiais</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Portfólio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#process">Processo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
           </ul>
+        </div>
+
+        <!-- Right Section -->
+        <div class="navbar-actions d-flex align-items-center">
+          <!-- Language Switcher -->
+          <div class="language-selector">
+            <button class="lang-btn active" data-lang="pt">PT</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+          </div>
+          
+          <!-- CTA Buttons (Always visible) -->
+          <div class="cta-buttons">
+            <button id="whatsappBtn" class="btn btn-whatsapp">
+              <div class="btn-icon">
+                <i class="bi bi-whatsapp"></i>
+              </div>
+              <div class="btn-text">
+                <span>WhatsApp</span>
+              </div>
+            </button>
+            <a href="#contact" class="btn btn-primary">
+              <div class="btn-icon">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="btn-text">
+                <span>Orçamento</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Mobile Menu Toggle -->
+          <button class="mobile-menu-toggle d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Abrir Menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
         </div>
       </div>
     </nav>
 
-    <!-- Offcanvas mobile menu -->
-    <div class="offcanvas offcanvas-end glass" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavLabel">Menu</h5>
+    <!-- Mobile Menu -->
+    <div class="offcanvas offcanvas-end mobile-menu" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+      <div class="mobile-menu-header">
+        <div class="mobile-brand">
+          <img src="assets/images/logo.png" alt="ZincArt Logo" class="mobile-logo">
+        </div>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav fs-5">
-          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#services">Serviços</a></li>
-          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#materials">Materiais</a></li>
-          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#gallery">Portfólio</a></li>
-          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#process">Processo</a></li>
-          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#faq">FAQ</a></li>
-          <li class="nav-item"><a class="nav-link py-3" data-bs-dismiss="offcanvas" href="#contact">Contacto</a></li>
-        </ul>
-        <div class="mt-4 d-grid gap-2">
-          <a class="btn btn-primary" href="#contact">Pedir Orçamento</a>
-          <button id="whatsappBtnMobile" class="btn btn-whatsapp" aria-label="WhatsApp Conversa"><i class="bi bi-whatsapp"></i> WhatsApp Conversa</button>
+      
+      <div class="mobile-menu-body">
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li><a href="#services" data-bs-dismiss="offcanvas">Serviços</a></li>
+            <li><a href="#materials" data-bs-dismiss="offcanvas">Materiais</a></li>
+            <li><a href="#gallery" data-bs-dismiss="offcanvas">Portfólio</a></li>
+            <li><a href="#process" data-bs-dismiss="offcanvas">Processo</a></li>
+            <li><a href="#faq" data-bs-dismiss="offcanvas">FAQ</a></li>
+            <li><a href="#contact" data-bs-dismiss="offcanvas">Contacto</a></li>
+          </ul>
+        </nav>
+        
+        <div class="mobile-actions">
+          <button id="whatsappBtnMobile" class="btn btn-whatsapp-mobile">
+            <i class="bi bi-whatsapp"></i>
+            <span>WhatsApp</span>
+          </button>
+          <a href="#contact" class="btn btn-primary-mobile" data-bs-dismiss="offcanvas">
+            <i class="bi bi-envelope"></i>
+            <span>Pedir Orçamento</span>
+          </a>
         </div>
       </div>
     </div>
