@@ -445,6 +445,7 @@ body {
   justify-content: space-between;
   padding: 1.5rem 2rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
 }
 
 .mobile-brand {
@@ -453,7 +454,7 @@ body {
 }
 
 .mobile-logo {
-  height: 60px;
+  height: 70px;
   width: auto;
 }
 
@@ -462,6 +463,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  background: #fff;
 }
 
 .mobile-nav-list {
@@ -1566,7 +1568,7 @@ body {
   }
   
   .footer-logo {
-    height: 50px;
+    height: 90px;
   }
   
   .contact-info {
@@ -2514,7 +2516,7 @@ body {
 }
 
 .stat-item .counter-label {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   color: var(--z-600);
   font-weight: 500;
 }
@@ -3453,7 +3455,7 @@ body {
   }
   
   .stat-item .counter {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
   }
   
   .navbar-brand {
@@ -4739,7 +4741,7 @@ body {
   }
   
   .logo-img {
-    height: 60px;
+    height: 70px;
   }
   
   .navbar-actions {
@@ -4752,6 +4754,7 @@ body {
   }
   
   .language-selector {
+    display: none!important;
     padding: 1px;
     flex-shrink: 0;
   }
@@ -4782,7 +4785,7 @@ body {
     display: flex !important;
   }
   
-  .btn-whatsapp .btn-text {
+  .btn-whatsapp {
     display: none !important;
   }
   
@@ -4820,7 +4823,7 @@ body {
   }
   
   .logo-img {
-    height: 50px;
+    height: 70px;
   }
   
   .navbar-actions {
@@ -4833,6 +4836,7 @@ body {
   }
   
   .language-selector {
+    display: none!important;
     padding: 1px;
     flex-shrink: 0;
   }
@@ -4844,6 +4848,8 @@ body {
   }
   
   .mobile-menu-toggle {
+    position: absolute;
+    right: 10px;
     flex-shrink: 0;
     order: 3;
   }
@@ -4857,7 +4863,7 @@ body {
     display: flex !important;
   }
   
-  .btn-whatsapp .btn-text {
+  .btn-whatsapp  {
     display: none !important;
   }
   
@@ -4884,13 +4890,15 @@ body {
   
   .mobile-menu-header {
     padding: 1.25rem 1.5rem;
+    background: #fff;
   }
   
   .mobile-menu-body {
     padding: 1.5rem;
+    background: #fff;
   }
   
   .mobile-logo {
-    height: 50px;
+    height: 70px;
   }
 }

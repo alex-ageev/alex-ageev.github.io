@@ -152,7 +152,7 @@ async function loadTranslations() {
 
 // Language Switcher
 function initLanguageSwitcher() {
-    const langButtons = document.querySelectorAll('.btn-lang');
+    const langButtons = document.querySelectorAll('.lang-btn');
     const savedLang = localStorage.getItem('selectedLanguage') || 'pt';
     
     // Set active language button
@@ -266,7 +266,7 @@ function updatePageLanguage(lang) {
 }
 
 function updateNavigation(nav) {
-    const navLinks = document.querySelectorAll('.modern-link');
+    const navLinks = document.querySelectorAll('.nav-link');
     const navTexts = [
         nav.services,
         nav.materials,
@@ -1155,35 +1155,33 @@ function initFormHandling() {
     const form = document.querySelector('#lead');
     const successAlert = document.querySelector('#formSuccess');
     const errorAlert = document.querySelector('#formError');
-    
-    if (form) {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Basic validation
-            const name = form.querySelector('#name').value.trim();
-            const email = form.querySelector('#email').value.trim();
-            const message = form.querySelector('#message').value.trim();
-            const consent = form.querySelector('#consent').checked;
-            
-            if (!name || !email || !message || !consent) {
-                showAlert(errorAlert, 'Пожалуйста, заполните все обязательные поля и согласитесь с обработкой данных.');
-                return;
-            }
-            
-            // Email validation
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(email)) {
-                showAlert(errorAlert, 'Пожалуйста, введите корректный email адрес.');
-                return;
-            }
-            
-            // Simulate form submission
-            showAlert(successAlert, 'Заявка отправлена. Мы свяжемся с вами в течение 24 часов.');
-            form.reset();
-        });
-    }
-}
+    if (!form) return;
+  
+    form.addEventListener('submit', function (e) {
+      // Basic validation
+      const name = form.querySelector('#name').value.trim();
+      const email = form.querySelector('#email').value.trim();
+      const message = form.querySelector('#message').value.trim();
+      const consent = form.querySelector('#consent').checked;
+  
+      if (!name || !email || !message || !consent) {
+        e.preventDefault(); // block only if invalid
+        showAlert(errorAlert, 'Por favor, preencha todos os campos obrigatórios e concorde com o tratamento de dados.');
+        return;
+      }
+  
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        e.preventDefault();
+        showAlert(errorAlert, 'Por favor, introduza um endereço de email válido.');
+        return;
+      }
+  
+      // IMPORTANT: do NOT reset or show success here.
+      // Let the browser POST to Formspree.
+    });
+  }
+  
 
 // Show Alert
 function showAlert(alert, message) {
@@ -1214,7 +1212,7 @@ function initWhatsApp() {
 
 // Open WhatsApp
 function openWhatsApp() {
-    const phoneNumber = '351261056388'; // Portuguese number format
+    const phoneNumber = '351935610516'; // Portuguese number format
     let message = 'Olá! Tenho interesse nos serviços de revestimentos em zinco e cobre.';
     
     if (currentLanguage === 'en') {
