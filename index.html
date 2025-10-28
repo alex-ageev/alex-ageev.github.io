@@ -173,34 +173,39 @@
 
     <!-- Mobile Menu -->
     <div class="offcanvas offcanvas-end mobile-menu" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
-      <div class="mobile-menu-header">
-        <div class="mobile-brand">
-          <img src="assets/images/logo.png" alt="ZincArt Logo" class="mobile-logo">
-        </div>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
-      </div>
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu-overlay"></div>
       
-      <div class="mobile-menu-body">
-        <nav class="mobile-nav">
-          <ul class="mobile-nav-list">
-            <li><a href="#services" data-bs-dismiss="offcanvas">Serviços</a></li>
-            <li><a href="#materials" data-bs-dismiss="offcanvas">Materiais</a></li>
-            <li><a href="#gallery" data-bs-dismiss="offcanvas">Portfólio</a></li>
-            <li><a href="#process" data-bs-dismiss="offcanvas">Processo</a></li>
-            <li><a href="#faq" data-bs-dismiss="offcanvas">FAQ</a></li>
-            <li><a href="#contact" data-bs-dismiss="offcanvas">Contacto</a></li>
-          </ul>
-        </nav>
+      <div class="mobile-menu-content">
+        <div class="mobile-menu-header">
+          <div class="mobile-brand">
+            <img src="assets/images/logo.png" alt="ZincArt Logo" class="mobile-logo">
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+        </div>
         
-        <div class="mobile-actions">
-          <button id="whatsappBtnMobile" class="btn btn-whatsapp-mobile">
-            <i class="bi bi-whatsapp"></i>
-            <span>WhatsApp</span>
-          </button>
-          <a href="#contact" class="btn btn-primary-mobile" data-bs-dismiss="offcanvas">
-            <i class="bi bi-envelope"></i>
-            <span>Pedir Orçamento</span>
-          </a>
+        <div class="mobile-menu-body">
+          <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+              <li><a href="#services" class="mobile-nav-link" data-bs-dismiss="offcanvas">Serviços</a></li>
+              <li><a href="#materials" class="mobile-nav-link" data-bs-dismiss="offcanvas">Materiais</a></li>
+              <li><a href="#gallery" class="mobile-nav-link" data-bs-dismiss="offcanvas">Portfólio</a></li>
+              <li><a href="#process" class="mobile-nav-link" data-bs-dismiss="offcanvas">Processo</a></li>
+              <li><a href="#faq" class="mobile-nav-link" data-bs-dismiss="offcanvas">FAQ</a></li>
+              <li><a href="#contact" class="mobile-nav-link" data-bs-dismiss="offcanvas">Contacto</a></li>
+            </ul>
+          </nav>
+          
+          <div class="mobile-actions">
+            <button id="whatsappBtnMobile" class="btn btn-whatsapp-mobile">
+              <i class="bi bi-whatsapp"></i>
+              <span>WhatsApp</span>
+            </button>
+            <a href="#contact" class="btn btn-primary-mobile mobile-nav-link" data-bs-dismiss="offcanvas">
+              <i class="bi bi-envelope"></i>
+              <span>Pedir Orçamento</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
