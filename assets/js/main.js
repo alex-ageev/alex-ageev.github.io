@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Initialize all components
     initLoader();
     initNavigation();
-    initMobileMenu();
     initRevealAnimations();
     initLightbox();
     initDynamicGallery();
@@ -85,7 +84,6 @@ function initLoader() {
 function initNavigation() {
     const navbar = document.querySelector('.navbar');
     const navLinks = document.querySelectorAll('.nav-link');
-    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
     
     // Navbar scroll behavior
     window.addEventListener('scroll', function() {
@@ -96,7 +94,7 @@ function initNavigation() {
         }
     });
     
-    // Smooth scrolling for desktop anchor links
+    // Smooth scrolling for anchor links
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             const href = this.getAttribute('href');
@@ -113,82 +111,6 @@ function initNavigation() {
             }
         });
     });
-    
-    // Smooth scrolling for mobile menu anchor links
-    mobileNavLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            const href = this.getAttribute('href');
-            if (href.startsWith('#')) {
-                e.preventDefault();
-                
-                // Close mobile menu first
-                const mobileMenu = document.getElementById('mobileMenu');
-                if (mobileMenu) {
-                    const bsOffcanvas = bootstrap.Offcanvas.getInstance(mobileMenu);
-                    if (bsOffcanvas) {
-                        bsOffcanvas.hide();
-                    }
-                }
-                
-                // Wait for menu to close, then scroll
-                setTimeout(() => {
-                    const target = document.querySelector(href);
-                    if (target) {
-                        const offsetTop = target.offsetTop - 80; // Account for fixed navbar
-                        window.scrollTo({
-                            top: offsetTop,
-                            behavior: 'smooth'
-                        });
-                    }
-                }, 300); // Wait for Bootstrap animation to complete
-            }
-        });
-    });
-}
-
-// Mobile Menu
-function initMobileMenu() {
-    const mobileMenu = document.getElementById('mobileMenu');
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-    
-    if (mobileMenu && mobileMenuToggle) {
-        // Handle mobile menu toggle
-        mobileMenuToggle.addEventListener('click', function() {
-            mobileMenu.classList.add('show');
-        });
-        
-        // Handle mobile menu close
-        const closeButtons = mobileMenu.querySelectorAll('[data-bs-dismiss="offcanvas"]');
-        closeButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                mobileMenu.classList.remove('show');
-            });
-        });
-        
-        // Handle overlay click to close menu
-        const overlay = mobileMenu.querySelector('.mobile-menu-overlay');
-        if (overlay) {
-            overlay.addEventListener('click', function() {
-                mobileMenu.classList.remove('show');
-            });
-        }
-        
-        // Handle escape key to close menu
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && mobileMenu.classList.contains('show')) {
-                mobileMenu.classList.remove('show');
-            }
-        });
-        
-        // Handle Bootstrap offcanvas events
-        mobileMenu.addEventListener('show.bs.offcanvas', function() {
-            mobileMenu.classList.add('show');
-        });
-        
-        mobileMenu.addEventListener('hide.bs.offcanvas', function() {
-            mobileMenu.classList.remove('show');
-        });
-    }
 }
 
 // Reveal Animations
